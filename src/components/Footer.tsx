@@ -35,7 +35,7 @@ const Footer = () => {
               <Linkedin size={18} />
             </a>
             <a
-              href="https://navinduamerasinghe.blogspot.com"
+              href="https://medium.com/@navinduamerasinghe"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"

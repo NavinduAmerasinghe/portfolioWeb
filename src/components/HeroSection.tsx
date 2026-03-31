@@ -92,7 +92,7 @@ const HeroSection = () => {
                 <Mail size={20} />
               </a>
               <a
-                href="https://navinduamerasinghe.blogspot.com"
+                href="https://medium.com/@navinduamerasinghe"
                 className="p-3 rounded-full bg-secondary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
                 aria-label="Blog"
               >
