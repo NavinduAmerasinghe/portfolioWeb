@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Github, Linkedin, Mail, PenLine } from "lucide-react";
 import profilePhoto from "@/assets/profile-photo.jpg";
+import resume from "@/assets/CV_NavinduAmerasinghe.pdf";
 
 const HeroSection = () => {
   return (
@@ -55,7 +56,7 @@ const HeroSection = () => {
                 <a href="#projects">View My Work</a>
               </Button>
               <Button variant="heroOutline" size="lg" asChild>
-                <a href="/resume.pdf" download>
+                <a href={resume} download="CV_NavinduAmerasinghe.pdf">
                   Download Resume
                 </a>
               </Button>
