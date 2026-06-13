@@ -3,11 +3,11 @@ import { ExternalLink, Github, Folder } from "lucide-react";
 
 import certx360 from "./images/certx360.png";
 import fnWeather from "./images/fnweather.png";
-import posys from "./images/POSys.png";
+import posys from "./images/possys.png";
 import mlops from "./images/mlops.png";
-import EduChat from "./images/educhat.jpg";
+import eduChat from "./images/educhat.jpg";
 import rp from "./images/rp.png";
-import EmotePulse from "./images/emotepulse.png";
+import emotepulse from "./images/emotepulse.png";
 import visa from "./images/visa.png";
 import xray from "./images/xray.png";
 
@@ -65,7 +65,7 @@ technologies: [
   "PostgreSQL",
   "Artificial Intelligence (AI)"
 ],
-    image: EduChat,
+    image: eduChat,
     // github: "https://github.com",
     // live: "https://example.com",
     featured: true,
@@ -87,7 +87,7 @@ technologies: [
     description:
       "•	Developed an IoT smart farming platform that helps farmers to boost yields, ensure food quality and safety, and enable full process traceability.",
     technologies: ["Next.js", "AMQP", "RabbitMQ", "Node.js", "Nginx Reverse Proxy", "WebSocket"],
-    image: EmotePulse,
+    image: emotepulse,
     github: "https://github.com/NavinduAmerasinghe/EmotePulse-Live",
     live: "https://www.youtube.com/watch?v=jCfegf6E7zQ",
     featured: true,
