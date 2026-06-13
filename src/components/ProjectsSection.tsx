@@ -1,6 +1,17 @@
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Github, Folder } from "lucide-react";
 
+import certx360 from "./images/certx360.png";
+import fnWeather from "./images/fn_weather (1).png";
+import posys from "./images/POSys.png";
+import mlops from "./images/mlops.png";
+import EduChat from "./images/educhat.jpg";
+import rp from "./images/rp.png";
+import EmotePulse from "./images/emotepulse.png";
+import visa from "./images/visa.png";
+import xray from "./images/xray.png";
+
+
 type Project = {
   title: string;
   description: string;
@@ -14,22 +25,80 @@ type Project = {
 
 const projects: Project[] = [
   {
-    title: "Smart Road Weather Dashboard",
-    description:
-      "The Smart Road Weather Dashboard is a web-based application designed to provide real-time weather, road condition, and traffic information for users across Finland. By integrating data from the Finnish Meteorological Institute (FMI) and Digitraffic, the system helps users make safer travel decisions by presenting accurate, timely, and location-specific insights through an interactive dashboard.",
-    technologies: ["React", "Redux", "Java(Spring Boot)", "FMI API", "Digitraffic"],
-    image: "https://xxczmdfxqsyrcwauwakh.supabase.co/storage/v1/object/public/WebImages/Fn_weather.png",
+    title: "Wildlife Collision Prevention MLOps Platform",
+    description: `
+Designed and developed an end-to-end MLOps platform for wildlife collision risk prediction and road safety analytics. The platform leverages modern data engineering, machine learning, and cloud-native technologies to support scalable data processing, model development, and deployment workflows.
+`,
+  technologies: [
+    "Python",
+    "Apache Spark",
+    "Databricks",
+    "Delta Lake",
+    "MLflow",
+    "GitLab CI/CD",
+    "Docker",
+    "SeaweedFS",
+    "FastAPI",
+    "PostgreSQL",
+    "Machine Learning",
+    "Data Engineering",
+    "MLOps",
+    "Cloud Computing"
+  ],
+    image: mlops,
     // github: "https://github.com",
     // live: "https://example.com",
     featured: true,
     category: "AI/ML",
   },
+    {
+    title: "EduChat – AI-Powered Learning Platform for Tampere University",
+    description: `
+EduChat is an AI-enhanced learning support platform integrated with Tampere University's Plussa Learning Management System (LMS). The system leverages Retrieval-Augmented Generation (RAG) and Large Language Models (LLMs) to provide context-aware learning assistance, conversational exercises, and analytics for educators..
+`,
+technologies: [
+  "Large Language Models (LLMs)",
+  "Retrieval-Augmented Generation (RAG)",
+  "Full-Stack Development",
+  "Python",
+  "Django",
+  "PostgreSQL",
+  "Artificial Intelligence (AI)"
+],
+    image: EduChat,
+    // github: "https://github.com",
+    // live: "https://example.com",
+    featured: true,
+    category: "AI/ML",
+  },
+    {
+    title: "Smart Road Weather Dashboard",
+    description:
+      "The Smart Road Weather Dashboard is a web-based application designed to provide real-time weather, road condition, and traffic information for users across Finland. By integrating data from the Finnish Meteorological Institute (FMI) and Digitraffic, the system helps users make safer travel decisions by presenting accurate, timely, and location-specific insights through an interactive dashboard.",
+    technologies: ["React", "Redux", "Java(Spring Boot)", "FMI API", "Digitraffic"],
+    image: fnWeather,
+    // github: "https://github.com",
+    // live: "https://example.com",
+    featured: false,
+    category: "AI/ML",
+  },
   {
+    title: "EmotePulse Live",
+    description:
+      "•	Developed an IoT smart farming platform that helps farmers to boost yields, ensure food quality and safety, and enable full process traceability.",
+    technologies: ["Next.js", "AMQP", "RabbitMQ", "Node.js", "Nginx Reverse Proxy", "WebSocket"],
+    image: EmotePulse,
+    github: "https://github.com/NavinduAmerasinghe/EmotePulse-Live",
+    live: "https://www.youtube.com/watch?v=jCfegf6E7zQ",
+    featured: true,
+    category: "Web",
+  },
+    {
     title: "CertX360 IOT Project",
     description:
       "•	Developed an IoT smart farming platform that helps farmers to boost yields, ensure food quality and safety, and enable full process traceability.",
     technologies: ["Next.js", "TypeScript", "PostgreSQL", "D3.js", "WebSocket"],
-    image: "https://xxczmdfxqsyrcwauwakh.supabase.co/storage/v1/object/public/WebImages/certx360.png",
+    image: certx360,
     // github: "https://github.com",
     // live: "https://example.com",
     featured: true,
@@ -49,9 +118,8 @@ const projects: Project[] = [
       "Docker",
       "React Native",
     ],
-    image: "https://xxczmdfxqsyrcwauwakh.supabase.co/storage/v1/object/public/WebImages/Rp.png",
-    // github: "https://github.com",
-    // live: "https://example.com",
+    image: rp,    // github: "https://github.com",
+     live: "https://www.youtube.com/watch?v=PJ-7MsQvMEI",
     featured: true,
     category: "AI/ML",
   },
@@ -60,7 +128,7 @@ const projects: Project[] = [
     description:
       "OS (Point of Sale) system is designed to streamline retail or service-based transactions, integrating core functionalities such as inventory management, billing, payment processing, and customer data handling. With a user-friendly interface, it ensures seamless sales operations while incorporating features like cart management, product additions, and multiple payment options.",
     technologies: ["React", "Node.js", "MongoDB", "Stripe", "Tailwind CSS"],
-    image: "https://xxczmdfxqsyrcwauwakh.supabase.co/storage/v1/object/public/WebImages/POSys.png",
+    image: posys,
     // github: "https://github.com",
     // live: "https://example.com",
     featured: false,
@@ -71,7 +139,7 @@ const projects: Project[] = [
     description:
       "Developed a medical X-ray diagnosis web application by training a CNN model using PyTorch and integrating it into a Flask backend. Evaluated model performance and explored real-world deployment considerations.",
     technologies: ["Python", "PyTorch", "CNN", "Flask", "Machine Learning"],
-    image: "https://xxczmdfxqsyrcwauwakh.supabase.co/storage/v1/object/public/WebImages/xray.png",
+    image: xray,
     // github: "https://github.com", 
     featured: false,
     category: "AI/ML",
@@ -82,7 +150,7 @@ const projects: Project[] = [
     description:
       "Designed and evaluated multiple machine learning classifiers, including a custom ANN, for structured data prediction. Containerized and deployed the full ML pipeline using Docker with CI/CD-oriented deployment considerations.",
     technologies: ["Python", "Machine Learning", "ANN", "Docker", "CI/CD"],
-    image: "https://xxczmdfxqsyrcwauwakh.supabase.co/storage/v1/object/public/WebImages/visa.png",
+    image: visa,
     // github: "https://github.com", 
     featured: false,
     category: "AI/ML",

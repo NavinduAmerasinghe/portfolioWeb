@@ -3,59 +3,98 @@ import { Palette, Server, Code, X, Check, ArrowRight } from "lucide-react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 
 const services = [
-{
-  icon: Palette,
-  title: "Website Design & Development",
-  shortDesc: "Designing and deploying modern, high-quality websites",
-  services: [
-    "Modern UI design for personal and business websites",
-    "Responsive web design for desktop and mobile",
-    "Wireframing and basic prototyping",
-    "Email integration (contact forms, notifications)",
-    "Website deployment and hosting setup",
-    "Domain configuration and basic SEO setup",
-  ],
-},
+  {
+    icon: Palette,
+    title: "Website Design & Development",
+    shortDesc: "Designing and deploying modern websites for businesses and individuals",
+    services: [
+      "Modern UI design for personal, portfolio, and business websites",
+      "Responsive web design for desktop, tablet, and mobile",
+      "Landing pages, company websites, and service websites",
+      "Contact forms, email notifications, and basic automation",
+      "Website deployment, hosting setup, and domain configuration",
+      "Basic SEO setup and performance optimization",
+    ],
+  },
 
-{
-  icon: Code,
-  title: "Frontend Software Engineer",
-  shortDesc: "Building scalable and responsive frontend applications",
-  services: [
-    "Build scalable web applications using React.js and Next.js",
-    "Create responsive user interfaces using HTML, Tailwind CSS, and JavaScript",
-    "Integrate RESTful APIs and handle dynamic routing with Next.js",
-    "Use Git and GitHub for version control and collaborative development",
-    "Containerize frontend applications using Docker for consistent builds and deployment",
-  ],
-},
+  {
+    icon: Code,
+    title: "Frontend Development",
+    shortDesc: "Building responsive and scalable frontend applications",
+    services: [
+      "Develop web applications using React.js, Next.js, and TypeScript",
+      "Create clean and responsive UIs using Tailwind CSS and JavaScript",
+      "Integrate REST APIs and handle dynamic frontend workflows",
+      "Build reusable components and maintainable frontend architecture",
+      "Use Git, GitHub, and Docker for version control and deployment",
+    ],
+  },
 
-{
-  icon: Server,
-  title: "Backend Developer",
-  shortDesc: "Building secure and scalable backend systems",
-  services: [
-    "Build scalable backend services using Node.js and Express.js",
-    "Work with MongoDB and Mongoose for database design and integration",
-    "Implement RESTful APIs and handle authentication (JWT, OAuth)",
-    "Manage asynchronous tasks, cron jobs, and background workers",
-    "Handle file uploads, validations, and server-side logic",
-    "Design clean, maintainable backend architectures",
-  ],
-},
+  {
+    icon: Server,
+    title: "Backend Development",
+    shortDesc: "Developing secure APIs and backend systems",
+    services: [
+      "Build backend services using Node.js, Express.js, and FastAPI",
+      "Design RESTful APIs and server-side business logic",
+      "Work with MongoDB, MySQL, PostgreSQL, and Mongoose",
+      "Implement authentication using JWT and OAuth",
+      "Handle file uploads, validations, cron jobs, and background tasks",
+      "Design clean and scalable backend architectures",
+    ],
+  },
 
-{
-  icon: Server,
-  title: "Mobile Application Development",
-  shortDesc: "Building simple and scalable mobile applications",
-  services: [
-    "Develop cross-platform mobile applications using React Native and Flutter",
-    "Build reusable UI components and responsive mobile layouts",
-    "Integrate RESTful APIs and backend services",
-    "Ensure smooth performance and basic state management",
-  ],
-},
+  {
+    icon: Server,
+    title: "Full Stack Development",
+    shortDesc: "Creating complete web applications from frontend to backend",
+    services: [
+      "Develop complete MERN stack web applications",
+      "Connect frontend applications with secure backend APIs",
+      "Design database models and application workflows",
+      "Implement authentication, dashboards, forms, and admin panels",
+      "Deploy full stack applications using Docker and cloud platforms",
+    ],
+  },
 
+  {
+    icon: Code,
+    title: "AI, ML & MLOps",
+    shortDesc: "Building data-driven AI solutions and ML workflows",
+    services: [
+      "Develop machine learning models using Python and Scikit-learn",
+      "Work with data preprocessing, feature engineering, and model training",
+      "Build MLOps pipelines using MLflow, Docker, and CI/CD concepts",
+      "Create data pipelines using PySpark and Delta Lake",
+      "Support AI dashboards, prediction systems, and model tracking workflows",
+    ],
+  },
+
+  // {
+  //   icon: Server,
+  //   title: "IoT & Embedded Systems",
+  //   shortDesc: "Building smart systems using sensors, IoT, and automation",
+  //   services: [
+  //     "Develop IoT prototypes using Arduino and Raspberry Pi",
+  //     "Work with sensors, camera modules, and real-time monitoring systems",
+  //     "Build smart automation and surveillance-based solutions",
+  //     "Integrate IoT data with web or mobile applications",
+  //     "Support embedded software logic using C, C++, and Python",
+  //   ],
+  // },
+
+  {
+    icon: Server,
+    title: "Mobile Application Development",
+    shortDesc: "Building simple and scalable mobile applications",
+    services: [
+      "Develop cross-platform mobile applications using React Native and Flutter",
+      "Build reusable UI components and responsive mobile layouts",
+      "Integrate REST APIs and backend services",
+      "Implement basic state management and mobile app workflows",
+      "Support testing, debugging, and deployment preparation",
+    ],
+  },
 ];
 
 const ServicesSection = () => {
