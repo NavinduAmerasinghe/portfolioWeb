@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { ExternalLink, Github, Folder } from "lucide-react";
 
 import certx360 from "./images/certx360.png";
-import fnWeather from "./images/fn_weather.png";
+import fnWeather from "./images/fnweather.png";
 import posys from "./images/POSys.png";
 import mlops from "./images/mlops.png";
 import EduChat from "./images/educhat.jpg";
