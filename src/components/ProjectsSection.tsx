@@ -85,7 +85,7 @@ technologies: [
   {
     title: "EmotePulse Live",
     description:
-      "•	Developed an IoT smart farming platform that helps farmers to boost yields, ensure food quality and safety, and enable full process traceability.",
+      "•	A real-time audience reaction analytics platform built using modern distributed system architecture and event-driven communication.",
     technologies: ["Next.js", "AMQP", "RabbitMQ", "Node.js", "Nginx Reverse Proxy", "WebSocket"],
     image: emotepulse,
     github: "https://github.com/NavinduAmerasinghe/EmotePulse-Live",
